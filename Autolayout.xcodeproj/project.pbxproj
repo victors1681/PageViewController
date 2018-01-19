@@ -14,6 +14,11 @@
 		2EEBC0DC2012615D00D5F72C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EEBC0DA2012615D00D5F72C /* LaunchScreen.storyboard */; };
 		2EEBC0E72012615D00D5F72C /* AutolayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEBC0E62012615D00D5F72C /* AutolayoutTests.swift */; };
 		2EEBC0F22012615D00D5F72C /* AutolayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEBC0F12012615D00D5F72C /* AutolayoutUITests.swift */; };
+		2EEBC1002012873F00D5F72C /* SwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEBC0FF2012873F00D5F72C /* SwipeController.swift */; };
+		2EEBC10220128C1F00D5F72C /* PageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEBC10120128C1F00D5F72C /* PageCollectionViewCell.swift */; };
+		2EEBC104201293C200D5F72C /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEBC103201293C200D5F72C /* Page.swift */; };
+		2EEBC1062012A0C400D5F72C /* SwipeControllerExtenxion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEBC1052012A0C400D5F72C /* SwipeControllerExtenxion.swift */; };
+		2EEBC1082012A1A300D5F72C /* SwipeController+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEBC1072012A1A300D5F72C /* SwipeController+CollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		2EEBC0ED2012615D00D5F72C /* AutolayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutolayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EEBC0F12012615D00D5F72C /* AutolayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutolayoutUITests.swift; sourceTree = "<group>"; };
 		2EEBC0F32012615D00D5F72C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EEBC0FF2012873F00D5F72C /* SwipeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeController.swift; sourceTree = "<group>"; };
+		2EEBC10120128C1F00D5F72C /* PageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCollectionViewCell.swift; sourceTree = "<group>"; };
+		2EEBC103201293C200D5F72C /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		2EEBC1052012A0C400D5F72C /* SwipeControllerExtenxion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeControllerExtenxion.swift; sourceTree = "<group>"; };
+		2EEBC1072012A1A300D5F72C /* SwipeController+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipeController+CollectionView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +108,16 @@
 			isa = PBXGroup;
 			children = (
 				2EEBC0D12012615D00D5F72C /* AppDelegate.swift */,
-				2EEBC0D32012615D00D5F72C /* ViewController.swift */,
 				2EEBC0D52012615D00D5F72C /* Main.storyboard */,
 				2EEBC0D82012615D00D5F72C /* Assets.xcassets */,
 				2EEBC0DA2012615D00D5F72C /* LaunchScreen.storyboard */,
 				2EEBC0DD2012615D00D5F72C /* Info.plist */,
+				2EEBC0D32012615D00D5F72C /* ViewController.swift */,
+				2EEBC10120128C1F00D5F72C /* PageCollectionViewCell.swift */,
+				2EEBC103201293C200D5F72C /* Page.swift */,
+				2EEBC0FF2012873F00D5F72C /* SwipeController.swift */,
+				2EEBC1052012A0C400D5F72C /* SwipeControllerExtenxion.swift */,
+				2EEBC1072012A1A300D5F72C /* SwipeController+CollectionView.swift */,
 			);
 			path = Autolayout;
 			sourceTree = "<group>";
@@ -261,6 +276,11 @@
 			files = (
 				2EEBC0D42012615D00D5F72C /* ViewController.swift in Sources */,
 				2EEBC0D22012615D00D5F72C /* AppDelegate.swift in Sources */,
+				2EEBC1002012873F00D5F72C /* SwipeController.swift in Sources */,
+				2EEBC1082012A1A300D5F72C /* SwipeController+CollectionView.swift in Sources */,
+				2EEBC10220128C1F00D5F72C /* PageCollectionViewCell.swift in Sources */,
+				2EEBC104201293C200D5F72C /* Page.swift in Sources */,
+				2EEBC1062012A0C400D5F72C /* SwipeControllerExtenxion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
